@@ -40,87 +40,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Monte Carlo](https://www.montecarlodata.com/)**  
-
-  Leading enterprise data observability platform offering automated monitoring across freshness, volume, schema, and distribution, with strong lineage and incident workflows.
-
-
-
-- **[Bigeye](https://www.bigeye.com/)**  
-
-  Data observability and AI trust platform focused on SQL-native metrics, data SLAs, lineage, and cost/anomaly detection for modern data stacks.
-
-
-
-- **[Acceldata](https://www.acceldata.io/)**  
-
-  Comprehensive data observability solution covering data quality, pipeline reliability, and cost monitoring across hybrid and multi-cloud environments.
-
-
-
-- **[Metaplane](https://www.metaplane.dev/)**  
-
-  User-friendly data observability platform known for rapid setup, automated monitors, and strong usability for warehouse-centric teams.
-
-
-
-- **[Soda](https://www.soda.io/)**  
-
-  Data quality and observability platform with an open-source core (Soda Core), supporting code-first checks, contracts, and collaborative workflows.
-
-
-
-- **[Anomalo](https://www.anomalo.com/)**  
-
-  ML-native data observability platform specializing in unsupervised anomaly detection and value-level monitoring with minimal configuration.
-
-
-
-- **[Datafold](https://www.datafold.com/)**  
-
-  Data quality and CI-oriented platform focused on data diffing, regression testing, and proactive pipeline validation.
-
-
-
-- **[Observe](https://www.observeinc.com/)**  
-
-  Observability platform that extends into data and application monitoring with unified telemetry and investigation capabilities.
-
-
-
-- **[Databand (IBM)](https://www.ibm.com/)**  
-
-  Data pipeline observability and reliability platform (now part of IBM) for monitoring ETL/ELT jobs and data workflows.
-
-
-
-- **[Telmai](https://www.telmai.io/)**  
-
-  Data quality and observability solution emphasizing continuous monitoring and anomaly detection for enterprise data assets.
-
-
-
-- **[WhyLabs](https://whylabs.ai/)**  
-
-  AI and data observability platform focused on monitoring data drift, model performance, and data quality for ML systems.
-
-
-
-- **[Validio](https://validio.io/)**  
-
-  Data quality and observability platform with strong support for real-time and batch monitoring use cases.
-
-
-
-- **[Elementary](https://www.elementary-data.com/)**  
-
-  dbt-native data observability solution available as open-source or cloud service, focused on rapid monitoring for analytics engineers.
-
-
-
-- **[Observe Inc.](https://www.observeinc.com/)**  
-
-  Unified observability platform that includes data-related monitoring capabilities alongside broader system telemetry.
+| Platform | Description | Pricing | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[Monte Carlo](https://www.montecarlodata.com/)** | Leading enterprise data observability platform offering automated monitoring across freshness, volume, schema, and distribution, with lineage and incident workflows. | Enterprise quote-based (starts at ~$25,000/year for small deployments of 30–100 tables) | No free tier; 14 to 30-day guided POC available on request (limited to scoped tables/sources) |
+| **[Bigeye](https://www.bigeye.com/)** | Data observability and AI trust platform focused on SQL-native metrics, data SLAs, lineage, and cost/anomaly detection for modern data stacks. | Enterprise quote-based (starts at ~$45,000/year for ~100 tables) | No free tier; guided pilot workspace available on request (restricted monitor count & catalog sync limits) |
+| **[Acceldata](https://www.acceldata.io/)** | Comprehensive data observability solution covering data quality, pipeline reliability, and compute/cost monitoring across hybrid/multi-cloud environments. | Enterprise quote-based (custom annual contract; starts at ~$40,000–$50,000/year) | No free tier; 14 to 30-day enterprise POC/trial available upon consultation |
+| **[Metaplane](https://www.metaplane.dev/)** | User-friendly data observability platform known for rapid setup, automated monitors, and strong usability for warehouse-centric teams (Datadog company). | Free tier available; Pro plan starts at ~$10/monitored table/month (or custom tier) | Free forever plan: Up to 10 monitored tables, up to 4 users, schema change alerts, column-level lineage |
+| **[Soda (Soda Cloud)](https://www.soda.io/)** | Data quality and observability platform with an open-source core (Soda Core), supporting code-first checks, contracts, and collaborative workflows. | Free tier available; Team tier starts at $750/month (includes 20 datasets, +$8/dataset) | Free forever plan: Up to 3 production datasets with basic pipeline testing and alerting |
+| **[Anomalo](https://www.anomalo.com/)** | ML-native data observability platform specializing in unsupervised anomaly detection and deep table value-level monitoring with minimal configuration. | Enterprise quote-based (typically starts at ~$50,000+/year) | No free tier; 30-day scoped evaluation pilot available upon demo request |
+| **[Datafold](https://www.datafold.com/)** | Data quality and CI-oriented platform focused on data diffing, regression testing, and proactive pipeline validation. | Cloud tier starts at $799/month (billed annually); Enterprise custom | 14-day free trial on Cloud; Free tier available with limited Data Diff runs and basic lineage |
+| **[Databand (IBM watsonx.data)](https://www.ibm.com/)** | Data pipeline observability and reliability platform (now integrated into IBM watsonx.data) for monitoring ETL/ELT jobs and workflows. | IBM Resource Unit quote-based / watsonx subscription (typically starts at ~$1,000+/month) | 30-day free trial of IBM watsonx.data (including data observability components, cloud credits limited) |
+| **[Telmai](https://www.telmai.io/)** | Data quality and observability solution emphasizing continuous monitoring and anomaly detection for enterprise data assets. | Enterprise quote-based (custom annual contract; starts at ~$30,000–$40,000/year) | No free tier; 14-day guided proof-of-concept trial available on request |
+| **[WhyLabs](https://whylabs.ai/)** | AI and data observability platform for data drift and model performance (commercial SaaS discontinued in 2025; open-sourced `whylogs`/`langkit`). | $0 (Commercial SaaS sunset; fully free self-hosted open-source on GitHub) | Free forever / Open Source (unlimited self-hosted profiles via `whylogs` & `langkit`) |
+| **[Validio](https://validio.io/)** | Data quality and observability platform with strong support for real-time streaming and batch monitoring use cases. | Enterprise quote-based (custom tiered based on monitored assets & data volume) | 14-day free trial: Full platform features, up to 10 users, no credit card required |
+| **[Elementary (Cloud)](https://www.elementary-data.com/)** | dbt-native data observability solution available as managed cloud service, focused on rapid monitoring for analytics engineers. | Scale tier starts at ~$500–$650/month (based on seats and up to 1K tables); Enterprise custom | 30-day free trial of Elementary Cloud (full features, self-service sign-up) |
+| **[Observe Inc.](https://www.observeinc.com/)** | Unified telemetry and data observability platform built on Snowflake, providing log, trace, metric, and data pipeline monitoring. | Ingestion-based: Logs from $0.49/GiB, Traces from $0.59/GiB, Metrics from $0.008/M data points | 14-day free trial: Full platform access with high-ceiling compute credits, no credit card required |
 
 
 
